@@ -1,6 +1,6 @@
 function counter(min, max, time, elem)
 {
-    var timer = setInteval(function(){
+    var timer = setInterval(function(){
         var count = min++;
         if (count < 10) count = '0' + count;
         document.querySelector(elem).innerHTML = count;
