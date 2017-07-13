@@ -27,4 +27,6 @@ class User
         return $this->name;
     }
 }
+
+$user = new User();
 ```
