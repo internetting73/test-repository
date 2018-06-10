@@ -4,12 +4,17 @@
 
 class User
 {
-    private $name;
+    private $username;
     private $email;
 
-    public function setName($name)
+    public function setUsername($username)
     {
-        $this->name = $name;
+        $this->username = $username;
+    }
+        
+    public function getUsername()
+    {
+        return $this->username;
     }
 
     public function setEmail($email)
@@ -17,22 +22,9 @@ class User
         $this->email = $email;
     }
 
-    public function getName()
-    {
-        return $this->name;
-    }
-
     public function getEmail()
     {
-        return $this->name;
+        return $this->email;
     }
 }
-
-$user = new User();
 ```
-# Menu
-1. Item_1;
-2. Item_2;
-3. Item_3:
-    * subitem_1;
-    * subitem_2.
