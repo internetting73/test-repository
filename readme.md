@@ -1,4 +1,4 @@
-# Test
+# User class
 ```php
 <?php
 
