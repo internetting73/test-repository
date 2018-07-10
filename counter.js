@@ -1,5 +1,4 @@
-function counter(min, max, time, elem)
-{
+function counter(min, max, time, elem) {
     var timer = setInterval(function(){
         var count = min++;
         if (count < 10) count = '0' + count;
